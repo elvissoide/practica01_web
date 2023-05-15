@@ -1,6 +1,7 @@
 const consultarPokemon = (id,number) => 
 {
-    fetch(`https://pokeapi.co/api/v2/pokemon/${id}`) //Fetch permite obtener información de cualquier API
+    //Fetch permite obtener información de cualquier API
+    fetch(`https://pokeapi.co/api/v2/pokemon/${id}`) 
     
     .then(response => {
         console.log(response);
